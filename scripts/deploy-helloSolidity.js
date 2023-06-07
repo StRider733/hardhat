@@ -13,8 +13,6 @@ async function main(){
 
     console.log("Hello Solidity contract address : ", deployed_greeter.address);
 
-
-
 }
 
 main()
