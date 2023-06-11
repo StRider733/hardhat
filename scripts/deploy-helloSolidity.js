@@ -12,7 +12,6 @@ async function main(){
     
 
     console.log("Hello Solidity contract address : ", deployed_greeter.address);
-
 }
 
 main()
@@ -22,3 +21,5 @@ main()
         process.exit(1);
     })
 
+
+    
