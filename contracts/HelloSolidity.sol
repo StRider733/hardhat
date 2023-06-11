@@ -15,12 +15,5 @@ contract HelloSolidity{
     function setGreeting(string memory _greeting) public {
         greeting = _greeting;
     }
-
     
-
-
-
-
-
-
 }
