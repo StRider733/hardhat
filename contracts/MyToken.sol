@@ -6,7 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC20, ERC20Burnable, Ownable {
+
     constructor() ERC20("My Token", "MTK") {
+        
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
 
@@ -14,4 +16,5 @@ contract MyToken is ERC20, ERC20Burnable, Ownable {
         _mint(to, amount);
     }
 }
+
 
